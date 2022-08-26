@@ -18,14 +18,17 @@ export default function PortfolioSection() {
   //   }
   // ]
 
-  const Card = () => {
+
+
+  const Card = (props) => {
     return(
       <div class="card">
-          <img src="../../public/cute-cuddly.png" class="card-img-top" alt="app screenshot"/>
+          <img src={props.img} class="card-img-top image" alt="app screenshot"/>
           <div class="card-body">
-            <h5 class="card-title">cute and cuddly</h5>
-            <p class="card-text">Deployed URL: https://gabrielwarner.github.io/cute-and-cuddly/</p>
-            <p class="card-text">Github URL: https://github.com/GabrielWarner/cute-and-cuddly</p>
+            <h5 class="card-title">{props.title}</h5>
+            <a class="card-text" href={props.deploy} target='_blank'>Deployed URL</a>
+            <br/>
+            <a class="card-text" href={props.github} target='_blank'>Github URL</a>
           </div>
       </div>
     )
@@ -33,7 +36,9 @@ export default function PortfolioSection() {
   
   return (
     <div class= "section">
-     <Card />
+     <Card img="/cute-cuddly.png" title="Cute And Cuddly" deploy="https://gabrielwarner.github.io/cute-and-cuddly/" github="https://github.com/GabrielWarner/cute-and-cuddly"/>
+     <Card img="/play-outside.png" title="Play Outside" deploy="https://play-outside.herokuapp.com/" github="https://github.com/alonpatashnik/project-two"/>
+     <Card img="/word-check.png" title="Wordcheck" deploy="https://github.com/alonpatashnik/word-check-test" github="https://github.com/alonpatashnik/word-check-test"/>
     </div>
 );
 }

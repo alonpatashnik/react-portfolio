@@ -3,12 +3,23 @@
     background-size: cover;
     height: 1500px;
     color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .card {
     font-weight: bolder;
     width: 27rem;
-    height: 300px;
     color: black;
+    margin: 5px;
+    height: 350px;
+    
+}
 
+.image {
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 6px;
 }
