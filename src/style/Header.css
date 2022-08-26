@@ -1,0 +1,13 @@
+#header {
+    background-image: url(../../public/texture-16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: black;
+}

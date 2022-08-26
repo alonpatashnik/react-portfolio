@@ -1,0 +1,10 @@
+.section {
+    background-image: url(../../public/shutterstock_1107563717.jpg);
+    background-size: cover;
+    height: 1500px;
+    color: whitesmoke;
+}
+
+.card {
+    width: 18rem;
+}
