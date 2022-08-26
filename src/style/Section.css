@@ -6,5 +6,9 @@
 }
 
 .card {
-    width: 18rem;
+    font-weight: bolder;
+    width: 27rem;
+    height: 300px;
+    color: black;
+
 }

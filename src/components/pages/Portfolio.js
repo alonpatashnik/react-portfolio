@@ -21,7 +21,7 @@ export default function PortfolioSection() {
   const Card = () => {
     return(
       <div class="card">
-          <img class="card-img-top" src="../../public/cute-cuddly.png" alt="Card image cap"/>
+          <img src="../../public/cute-cuddly.png" class="card-img-top" alt="app screenshot"/>
           <div class="card-body">
             <h5 class="card-title">cute and cuddly</h5>
             <p class="card-text">Deployed URL: https://gabrielwarner.github.io/cute-and-cuddly/</p>
