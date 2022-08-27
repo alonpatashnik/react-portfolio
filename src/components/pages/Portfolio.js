@@ -35,7 +35,7 @@ export default function PortfolioSection() {
   }
   
   return (
-    <div class= "section">
+    <div class= "section portfolio">
      <Card img="/cute-cuddly.png" title="Cute And Cuddly" deploy="https://gabrielwarner.github.io/cute-and-cuddly/" github="https://github.com/GabrielWarner/cute-and-cuddly"/>
      <Card img="/play-outside.png" title="Play Outside" deploy="https://play-outside.herokuapp.com/" github="https://github.com/alonpatashnik/project-two"/>
      <Card img="/word-check.png" title="Wordcheck" deploy="https://github.com/alonpatashnik/word-check-test" github="https://github.com/alonpatashnik/word-check-test"/>

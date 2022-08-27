@@ -6,7 +6,7 @@ function Navbar() {
     const [currentPage, setCurrentPage] = useState('About');
     return (
     <>  <header id = "header">
-            <h1>Alon Patashnik's portfolio</h1>
+            <h1>Alon Patashnik's Portfolio</h1>
             <nav>
                 <ul class="nav" id="navBar">
                     <li class="nav-item">

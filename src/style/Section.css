@@ -4,8 +4,6 @@
     height: 1500px;
     color: whitesmoke;
     padding: 10px;
-    display: flex;
-    justify-content: space-around;
 }
 
 .card {
@@ -22,4 +20,25 @@
     width: 80%;
     height: 80%;
     border-radius: 6px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about{
+    width: 60rem;
+    height: 735px;
+}
+
+.about-align {
+    display: flex;
+    justify-content: center;
+}
+
+.resume-align {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
