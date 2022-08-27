@@ -26,9 +26,9 @@ export default function PortfolioSection() {
           <img src={props.img} class="card-img-top image" alt="app screenshot"/>
           <div class="card-body">
             <h5 class="card-title">{props.title}</h5>
-            <a class="card-text" href={props.deploy} target='_blank'>Deployed URL</a>
+            <a class="card-text" href={props.deploy} >Deployed URL</a>
             <br/>
-            <a class="card-text" href={props.github} target='_blank'>Github URL</a>
+            <a class="card-text" href={props.github} >Github URL</a>
           </div>
       </div>
     )
