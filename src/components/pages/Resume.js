@@ -5,8 +5,7 @@ export default function Resume() {
   return (
     <div class= "section">
       <div>
-        <h1>Resume</h1>
-        <h2>Please check out <a href="https://www.linkedin.com/in/alon-patashnik-52a3a48b/">my linked in profile</a></h2>
+        <h2>Please check out <a href="https://www.linkedin.com/in/alon-patashnik-52a3a48b/" class="text-link">my linked in profile</a></h2>
       </div>
       <br/>
       <br/>

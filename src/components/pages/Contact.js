@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import '../../style/Section.css'
 
 export default function Contact() {
 const [nameInput, setNameInput] = useState('')
@@ -40,7 +41,7 @@ const handleSubmit = (e) => {
   return (
     <div class= "section">
 
-      <h1>Backend in works to handle form submissions-- for now, please either email me at <a href="mailto:alonp714@gmail.com">alonp714@gmail.com</a> or call me at <a href="tel:4253182644">425-218-2644</a> </h1>
+      <h1>Backend in works to handle form submissions-- for now, please either email me at <a href="mailto:alonp714@gmail.com" class="text-link">alonp714@gmail.com</a> or call me at <a href="tel:4253182644" class="text-link">425-218-2644</a> </h1>
 
       <br/><br/>
 

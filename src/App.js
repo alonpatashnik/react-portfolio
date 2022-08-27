@@ -5,6 +5,7 @@ import Portfolio from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 import Header from "./components/Header"
+import Footer from './components/Footer';
 
 const App = () => {
 return (
@@ -18,6 +19,7 @@ return (
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/resume" element={<Resume/>}/>
         </Routes>
+        <Footer />
 
     </Router>
 )
