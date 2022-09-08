@@ -23,7 +23,7 @@ export default function PortfolioSection() {
   const Card = (props) => {
     let secondLink = ""
     if (props.github2) {
-      secondLink = <a class="card-text" href={props.github2}>Second Github URL</a>
+      secondLink = <a class="card-text" href={props.github2}>Backend Github URL</a>
     }
     
     return(
