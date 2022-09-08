@@ -1,15 +1,15 @@
 .section {
-    background-image: url(../../public/shutterstock_1107563717.jpg);
+    background-image: url(../../public/il_794xN.1250243095_add0.webp);
     background-size: cover;
     height: 1000px;
-    color: whitesmoke;
+    color: navy;
     padding: 10px;
 }
 
 .card {
     font-weight: bolder;
     width: 27rem;
-    color: black;
+    color: navy;
     margin: 5px;
     height: 350px;
     
@@ -44,5 +44,5 @@
 }
 
 .text-link {
-    color: white;
+    color: navy;
 }
